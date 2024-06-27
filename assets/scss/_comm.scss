@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.sec-other {
+    width: 100%;
+    height: 100vh;
+}
+.last {
+    height: 200vh;
+    background: lightcyan;
+}
+
+/* sec-info */
+.sec-info {
+    overflow: hidden;
+    color: white;
+}
+.parallax-item {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+#section1 {
+    background: palegoldenrod;
+    /* background-image: url(./assets/images/info_bg1.png); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#section1 .txt-wrap {
+    width: 720px;
+}
+#section2 {
+    background: palegreen;
+    /* background-image: url(./assets/images/info_bg2.png); */
+}
+#section3 {
+    background: paleturquoise;
+    /* background-image: url(./assets/images/info_bg3.png); */
+}
+#section4 {
+    background: palevioletred;
+    /* background-image: url(./assets/images/info_bg4.png); */
+}
+#section5 {
+    background: peru;
+    /* background-image: url(./assets/images/info_bg5.png); */
+}
+.parallax-item-tit {
+    opacity: 0;
+    transform: translateY(-100px);
+}
